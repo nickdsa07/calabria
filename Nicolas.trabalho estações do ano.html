@@ -1,0 +1,57 @@
+<meta charset="utf-8">
+
+<body bgcolor="Skyblue">
+<center>
+
+	<script>
+
+window.alert(`Hoje iremos trabalhar com as estações do ano: \n\n primavera \n verão \n inverno \n Outono`);
+
+		var mes = window.prompt('Digite um mês que você queira saber que estação ele faz parte: ');
+
+		switch(mes) {
+
+		case 'Dezembro':
+		case 'Janeiro':
+		case 'Fevereiro':
+		case 'Março':
+
+			document.write(`<h1>O mês ${mes} faz parte do Verão <br><br> O Verão é do dia 21 de Dezembro até o dia 21 de Março</h1>`);
+
+
+		break;
+
+		 case 'Abril':
+		 case 'Maio':
+		 case 'Junho':
+
+		 	document.write(`<h1>O mês ${mes} faz parte do Outono <br><br> Que vai do dia 22 de Março até o dia 21 de Junho</h1>`);
+
+		 break;
+
+		case 'Julho':
+		case 'Agosto':
+		case 'Setembro':
+
+		 	document.write(`<h1>O mês ${mes} faz parte do Inverno <br><br> Que vai do dia 21 de Julho até o dia 23 de Setembro</h1>`);
+
+		 break;
+
+		case 'Setembro':
+		case 'Outubro':
+		case 'Novembro':
+
+			document.write(`<h1>O mês ${mes} faz parte da Primavera <br><br> Que vai do dia 22 de Setembro até 23 de Dezembro</h1>`);
+
+		break;
+
+		default:
+
+			document.write('<h1>Por favor, digite corretamente o nome do mês!</h1>');
+
+		break;
+		
+
+		}
+
+	</script>
