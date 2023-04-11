@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+
+<body bgcolor="purple">
+
+	<script>
+		
+		var Name = window.prompt("Nome do aluno: ");
+		var Inst = window.prompt("Instituição de ensino de " + Name + ":");
+		var Disc = window.prompt("DIgite e diciplina do aluno " + Name + (" da Instituição " + Inst + ":"));
+
+		var nota1 = Number(window.prompt("DIgite a primeira nota do aluno:"));
+		var nota2 = Number(window.prompt("Por gentileza poderia digitar a segunda nota?"));
+		var nota3 = Number(window.prompt("Agora a terceita nota:"));
+
+		var media = (nota1 + nota2 + nota3)/3;
+
+		var ternaria = media >= 7 ? "Aprovado / muito bem!" : "Reprovado / Estuda direito meliante"
+
+		document.write("Nome do aluno: " + Name);
+		document.write("<br>");
+		document.write("<br>");
+		document.write("Instituição de " + Name + " : " + Inst);
+		document.write("<br>");
+		document.write("<br>");
+		document.write("Sua média " + Name + " foi: " + media.toFixed(2));
+		document.write("<br>");
+		document.write("<br>");
+		document.write("Voce foi: " + ternaria);
+
+	</script>

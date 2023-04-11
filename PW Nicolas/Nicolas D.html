@@ -1,0 +1,54 @@
+<meta charset="utf-8">
+
+<body bgcolor="orange">
+
+<script>
+
+	window.alert("Seja bem vindo(a)!")
+	window.alert("Olá! Hoje iremos revisar os materias da aula 3 a aula 5")
+	window.alert("Iremos usar a adição, subtração, multiplicação e a divisão nesta aula!")
+	window.alert("Está preparado para começar?")
+
+	var nome = window.prompt("Então me diga qual é o seu nome?");
+	var idade = window.prompt("E antes de prosseguirmos me diga tambem sua idade");
+
+	window.alert("Ola " + nome + " prazer em conhecelo, agora que ja me informou seu nome e sua idade podemos começar!");
+
+	window.alert("Vamos iniciar pela adição!");
+    var n1 = Number(window.prompt("Agora digite um numero qualquer para somarmos!"));
+	var n2 = Number(window.prompt("E agora digite um outro numero qualquer"));
+	var Adição = (n1 + n2);
+		window.alert("Agora vamos para subtração!");
+		var n3 = Number(window.prompt("Digite um numero aleatório para a nossa subtração"));
+		var n4 = Number(window.prompt("Digite um outro numero aleatório"));
+		var Subtração = (n3 - n4);
+			window.alert("Vamos para a multiplicação agora");
+			var n5 = Number(window.prompt("Digite algum numero para nossa multiplicação"));
+			var n6 = Number(window.prompt("Digite outro numero"));
+			var Multiplicação = (n5 * n6);
+				window.alert("Agora para finalizarmos, iremos ultizar da divisão");
+				var n7 = Number(window.prompt("Coloque algum numero para sua divisão"));
+				var n8 = Number(window.prompt("E aqui coloque outro numero"));
+				var Divisão = (n7 / n8);
+
+					window.alert("Ola " + nome + " vamos ver os resultados das suas contas?");
+					document.write("<h1>" + nome +" Os resultados das suas contas são: </h1>");
+					document.write("<h1>-----------------------------------------------------------</h1>");
+					document.write("<br>");
+						document.write("<h3> Conta de Adição bem realizada: " + n1 + " + " + n2);
+						document.write("<h3>" + "Resultado da conta de Adição: " + Adição + "</h3>");
+						document.write("<h1>-------------------------------------------------------------</h1>");
+						document.write("<br>");
+							document.write("Conta de Subtração bem realizada: " + n3 + " - " + n4);
+							document.write("<h3>" + "Resultado da conta de Subtração: " + Subtração + "</h3>");
+						    document.write("<h1>--------------------------------------------------------------</h1>");
+							document.write("<br>");
+								document.write("Conta de Multiplicação bem realizada: " + n5 + " x " + n6);
+								document.write("<h3>" + "Resultado da conta de Multiplicação: " + Multiplicação + "</h3>");
+								document.write("<h1>---------------------------------------------------------------</h1>");
+								document.write("<br>");
+									document.write("Conta de divisão bem realizada: " + n7 + " / " + n8)
+									document.write("<h3>" + "Resultado da conta de Divisão: " + Divisão + "</h3>")
+									document.write("<h1> Obrigado pelo seu teste :) </h1>");
+
+</script>
